@@ -1,0 +1,59 @@
+Cronometro {
+    layout: horizontal;
+    background: $boost;
+    height: 5;
+    margin: 1;
+    min-width: 30;
+    padding: 1;
+
+}
+
+displayTempo {
+    content-align: center middle;
+    align: center middle;
+    opacity: 80%;
+    height: 4;
+    color: white;
+}
+
+Button {
+    content-align: center middle;
+    background: black;
+    background: rgb(26, 26, 28);
+    width: 10;
+    text-style: bold;
+}
+
+#iniciar {
+    color: lightgreen;
+    border: lightgreen;
+    dock: left;
+}
+
+#parar {
+    color: rgb(250, 90, 85);
+    border: rgb(250, 90, 85);
+    dock: left;
+    display: none
+}
+
+#reiniciar {
+    border: white;
+}
+
+.iniciado {
+    color: $text;
+}
+
+.iniciado displayTempo {
+    text-opacity: 100%;
+    background: $success;
+}
+
+.iniciado #iniciar {
+    display: none;
+}
+
+.iniciado #parar {
+    display: block;
+}
