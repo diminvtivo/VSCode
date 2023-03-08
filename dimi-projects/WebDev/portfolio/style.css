@@ -1,0 +1,109 @@
+* {
+    text-decoration: 0;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    color:antiquewhite;
+    list-style: none;
+}
+
+body {
+    background-color: #09080c;
+}
+
+/*  */
+
+.sl-flex {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar-left {
+    height: 100vh;
+    width: 20rem;
+    background-color: #0c0c11;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-right: 1px solid #22282c;
+}
+
+.sidebar-l-container {
+    width: 90%;
+    height: 90%;
+}
+
+.sidebar-profile {
+    height: 43%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.profile-avatar {
+    width: 60%;
+    height: 60%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+small {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.profile-p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+    
+}
+
+.sidebar-l-links {
+    margin-top: 1rem;
+}
+
+.sidebar-m-n-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sidebar-m-n-links a {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.profile-social-links {
+    margin-top: 1rem;
+}
+
+.profile-sl-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-sl-ul li {
+    margin: 0 0.6rem;
+}
+
+#github {
+    fill: white;
+}
